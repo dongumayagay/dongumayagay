@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Don Gumayagay
 
-## An Information Technology Student who aspires to be a Software Engineer!
+## An BSIT Student who aspires to be a Software Engineer!
 
 - 🔭 I’m currently working on my Bachelor's Degree
 - 🌱 I’m currently learning Web Development (Svelte, Sveltekit, Tailwind, etc)
