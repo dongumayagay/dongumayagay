@@ -3,8 +3,8 @@
 <h2> 👨🏻‍💻 &nbsp;About Me </h2>
 
 - 🤔 &nbsp; I like to build things
-- 🌱 &nbsp; Studying about Web, Making Website and Web Apps.
-- ✍️ &nbsp; I ride bike.
+- 💻 &nbsp; Studying about Web, Making Website and Web Apps.
+- 🚴‍♂️ &nbsp; I ride bike.
 - 🧪 &nbsp; I love Science, Tech and Engineering
 
 <h2> 🛠 &nbsp;Tech Stack</h2>
