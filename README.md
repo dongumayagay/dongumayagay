@@ -13,9 +13,11 @@
   ![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=HTML5)
   ![CSS](https://img.shields.io/badge/-CSS-333?style=flat&logo=CSS3&logoColor=1572B6)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
+  ![ReactJS](https://img.shields.io/badge/-ReactJS-333?style=flat&logo=react)
+  ![NexttJS](https://img.shields.io/badge/-NextJS-333?style=flat&logo=nextdotjs)
   ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-333?style=flat&logo=Tailwind-CSS)
   ![Svelte](https://img.shields.io/badge/-Svelte-333?style=flat&logo=svelte)
-  ![Sveltekit](https://img.shields.io/badge/-Sveltekit-333?logo=Svelte)
+  ![Sveltekit](https://img.shields.io/badge/-SvelteKit-333?logo=Svelte)
   ![Python](https://img.shields.io/badge/-Python-333?logo=python)
 - 📶 &nbsp;
   ![Firebase](https://img.shields.io/badge/-Google_Firebase-333?style=flat&logo=Firebase)
