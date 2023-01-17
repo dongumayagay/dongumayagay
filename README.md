@@ -29,11 +29,11 @@
 
 <br/>
 
-<a href="https://github.com/dongumayagay">
+<!-- <a href="https://github.com/dongumayagay">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dongumayagay&show_icons=true&theme=tokyonight" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongumayagay&theme=tokyonight&layout=compact" />
 </a>
-<br/>
+<br/> -->
 
 <h3> 📈 &nbsp;Commit Graph</h3>
 <a href="http://www.github.com/dongumayagay"><img src="https://activity-graph.herokuapp.com/graph?username=dongumayagay&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
