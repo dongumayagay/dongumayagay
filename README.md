@@ -35,10 +35,10 @@
 </a>
 <br/> -->
 
-<h3> 📈 &nbsp;Commit Graph</h3>
+<!-- <h3> 📈 &nbsp;Commit Graph</h3>
 <a href="http://www.github.com/dongumayagay"><img src="https://activity-graph.herokuapp.com/graph?username=dongumayagay&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
-<br/>
+<br/> -->
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
