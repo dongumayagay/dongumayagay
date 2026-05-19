@@ -1,0 +1,64 @@
+name: auto-commit
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-commit
+  cancel-in-progress: false
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: configure git
+        run: |
+          git config user.name "dongumayagay"
+          git config user.email "mcdongumayagay@gmail.com"
+
+      - name: random commits
+        run: |
+          set -e
+
+          # Random initial jitter so commits don't all land at :00 (0-900s)
+          jitter=$(( RANDOM % 900 ))
+          echo "initial jitter: ${jitter}s"
+          sleep "$jitter"
+
+          # 1-4 commits this run; over 24 runs/day = 24-96 commits/day
+          n=$(( (RANDOM % 4) + 1 ))
+          echo "doing $n commit(s) this run"
+
+          for i in $(seq 1 "$n"); do
+            ts=$(date -u +"%Y-%m-%d %H:%M")
+            echo "Contribution: $ts" > .activity
+            git add .activity
+            git commit -m "Contribution: $ts"
+
+            # Random gap between commits in same run (30-240s), skip after last
+            if [ "$i" -lt "$n" ]; then
+              gap=$(( (RANDOM % 211) + 30 ))
+              echo "sleeping ${gap}s before next commit"
+              sleep "$gap"
+            fi
+          done
+
+          # Retry push to handle the rare concurrent-run race
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push attempt $attempt failed, rebasing and retrying"
+            git pull --rebase
+            sleep 5
+          done
+          exit 1
